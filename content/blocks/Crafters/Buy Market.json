@@ -6,10 +6,15 @@ buildTime: 240
 size: 3
 hasPower: false
 hasLiquids: false
+menu: Simple
 recipes: 
 [
 {
-  input: money/30
+  input: {
+    items: [
+      money/25
+    ]
+  }
   output: {
     items: [
       graphite/25
@@ -19,12 +24,16 @@ recipes:
   craftTime: 600
 }
 {
-  input: money/30
+ input: {
+    items: [
+      money/25
+    ]
+  }
   output: {
     items: [
       metaglass/15
     ]
-    power: 0
+    power: 100000000
   }
   craftTime: 600
 }
