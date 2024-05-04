@@ -1,40 +1,40 @@
 type: multicraft.MultiCrafter
 name:Buy Market
-itemCapacity: 50
+itemCapacity: 100
 craftTime: 240
 buildTime: 240
 size: 3
 health:  250
-hasPower: false
+hasPower: true
 hasLiquids: false
 menu: Simple
 recipes: 
 [
 {
   input: {
+    power: 180
     items: [
-      ancapistry-Money/25
+      ancapistry-Money/30
     ]
   }
   output: {
     items: [
       graphite/25
     ]
-    power: 0
   }
   craftTime: 600
 }
 {
  input: {
+    power: 180
     items: [
-      ancapistry-Money/25
+      ancapistry-Money/30
     ]
   }
   output: {
     items: [
-      metaglass/15
+      metaglass/20
     ]
-    power: 100000000
   }
   craftTime: 600
 }
