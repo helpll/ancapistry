@@ -38,7 +38,7 @@ recipes:
   craftTime: 600
 }
 requirements: [
-  Money/40
+  Money/100
   lead/50
 ]
 category: crafting
