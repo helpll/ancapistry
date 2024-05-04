@@ -19,7 +19,7 @@ recipes:
   }
   output: {
     items: [
-      ancapistry-Money/25
+      ancapistry-money/25
     ]
   }
   craftTime: 600
@@ -33,7 +33,7 @@ recipes:
   }
   output: {
     items: [
-      ancapistry-Money/20
+      ancapistry-money/20
     ]
   }
   craftTime: 600
@@ -41,7 +41,7 @@ recipes:
 ]
 craftEffect: smokeCloud
 requirements: [
-  ancapistry-Money/20
+  ancapistry-money/20
   lead/50
 ]
 category: crafting
