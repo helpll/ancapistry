@@ -8,7 +8,7 @@ hasLiquids: false
 consumes: {
   items: {
   }
-  power: 1
+  power: 0.7
 }
 craftEffect: chainLightning
 requirements: [
