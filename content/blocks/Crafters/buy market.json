@@ -12,7 +12,7 @@ recipes:
 [
 {
   input: {
-    power: 8
+    power: 4
     items: [
       ancapistry-money/30
     ]
@@ -22,11 +22,11 @@ recipes:
       graphite/25
     ]
   }
-  craftTime: 400
+  craftTime: 800
 }
 {
   input: {
-    power: 8
+    power: 4
     items: [
       ancapistry-money/100
     ]
@@ -36,11 +36,11 @@ recipes:
       ancapistry-uranium/8
     ]
   }
-  craftTime: 400
+  craftTime: 800
 }
 {
  input: {
-    power: 8
+    power: 4
     items: [
       ancapistry-money/30
     ]
@@ -50,7 +50,7 @@ recipes:
       metaglass/20
     ]
   }
-  craftTime: 400
+  craftTime: 800
 }
 ]
 craftEffect: smokeCloud
