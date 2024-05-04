@@ -10,7 +10,7 @@ range: 400
 minRange: 50
 targetAir: false
 ammoTypes: {
-  Uranium: {
+  uranium: {
 		type:ArtilleryBulletType
 		damage: 7500
       knockback: 0.8
