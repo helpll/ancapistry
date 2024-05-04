@@ -12,7 +12,7 @@ recipes:
 [
 {
   input: {
-    power: 180
+    power: 8
     items: [
       graphite/30
     ]
@@ -26,7 +26,7 @@ recipes:
 }
 {
  input: {
-    power: 180
+    power: 8
     items: [
       silicon/30
     ]
