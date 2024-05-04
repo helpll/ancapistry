@@ -10,7 +10,7 @@ range: 400
 minRange: 50
 targetAir: false
 ammoTypes: {
-  uranium: {
+  Uranium: {
 		type:ArtilleryBulletType
 		damage: 7500
       knockback: 0.8
@@ -263,6 +263,6 @@ y: 8
 ]
 }
 requirements: [
-  uranium/30
+  Uranium/30
 ]
 category: turret
