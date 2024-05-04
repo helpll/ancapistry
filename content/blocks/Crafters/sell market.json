@@ -22,7 +22,7 @@ recipes:
       ancapistry-money/25
     ]
   }
-  craftTime: 600
+  craftTime: 400
 }
 {
  input: {
@@ -36,7 +36,7 @@ recipes:
       ancapistry-money/20
     ]
   }
-  craftTime: 600
+  craftTime: 400
 }
 ]
 craftEffect: smokeCloud
