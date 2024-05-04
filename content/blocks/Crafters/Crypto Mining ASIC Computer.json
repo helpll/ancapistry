@@ -10,7 +10,7 @@ consumes: {
   }
   power: 60
 }
-craftEffect: smokeCloud
+craftEffect: chainLightning
 requirements: [
   lead/35
   copper/35
