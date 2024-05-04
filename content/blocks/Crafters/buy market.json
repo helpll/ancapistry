@@ -14,7 +14,7 @@ recipes:
   input: {
     power: 8
     items: [
-      ancapistry-Money/30
+      ancapistry-money/30
     ]
   }
   output: {
@@ -28,12 +28,12 @@ recipes:
   input: {
     power: 8
     items: [
-      ancapistry-Money/100
+      ancapistry-money/100
     ]
   }
   output: {
     items: [
-      ancapistry-Uranium/8
+      ancapistry-uranium/8
     ]
   }
   craftTime: 600
@@ -42,7 +42,7 @@ recipes:
  input: {
     power: 8
     items: [
-      ancapistry-Money/30
+      ancapistry-money/30
     ]
   }
   output: {
@@ -55,7 +55,7 @@ recipes:
 ]
 craftEffect: smokeCloud
 requirements: [
-  ancapistry-Money/100
+  ancapistry-money/100
   lead/50
 ]
 category: crafting
