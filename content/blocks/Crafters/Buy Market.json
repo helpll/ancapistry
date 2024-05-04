@@ -41,7 +41,7 @@ recipes:
 ]
 craftEffect: smokeCloud
 requirements: [
-  Money/100
+  ancapistry-Money/100
   lead/50
 ]
 category: crafting
