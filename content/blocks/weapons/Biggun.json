@@ -1,0 +1,268 @@
+type: ItemTurret
+description: A decently small weapon capable of destroying small stars.
+name: Nuclei Obliteratoris solaris
+size: 4
+targetGround: true
+inaccuracy: 5
+reload: 1000
+rotateSpeed: 5
+range: 400
+minRange: 50
+targetAir: false
+ammoTypes: {
+  uranium: {
+		type:ArtilleryBulletType
+		damage: 7500
+      knockback: 0.8
+  lifetime:580
+  splashDamageRadius:200
+  splashDamage:1000
+    moveWhileCharging: false
+    
+		parts: [
+        {
+          type: FlarePart
+     	color2: 32a852
+          color1: 1fd150
+          y: 0
+          followRotation: false
+          stroke: 5
+          radius: 25
+		spinSpeed: 5
+          partProgress: warmup
+        }
+  {
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 55
+  	radius: 60
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 50
+  	radius: 55
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 5
+    	rotateSpeed: 1
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 50
+  	radius: 55
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 5
+  	rotateSpeed: -1
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 60
+  	radius: 60
+	}
+	{
+  	type: HaloPart
+  	radius: 10.8
+  	tri: true
+  	layer: 110
+  	color: f54242ff
+  	haloRotateSpeed: -1
+  	haloRadius: 60
+  	haloRadiusTo: 55
+  	stroke: 0
+  	strokeTo: 3
+  	shapes: 3
+  	triLengthTo: 6
+  	triLength: 6
+	}
+	{
+  	type: HaloPart
+  	radius: 10.8
+  	tri: true
+  	layer: 110
+  	color: f54242ff
+  	haloRotateSpeed: 1
+  	haloRadius: 60
+  	haloRadiusTo: 55
+  	stroke: 0
+  	strokeTo: 3
+  	shapes: 3
+  	triLengthTo: 6
+  	triLength: 6
+	}
+  	{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 6
+    	rotateSpeed: 2
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 60
+  	radius: 65
+	}
+  	
+  {
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 6
+    	rotateSpeed: -2
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 65
+  	radius: 70
+	}
+  {
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 3
+    	rotateSpeed: 2
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 75
+  	radius: 80
+	}
+{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 3
+    	rotateSpeed: -2
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 75
+  	radius: 80
+	}
+  	{
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 75
+  	radius: 80
+	}
+      ]
+  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type: ExplosionEffect
+      waveColor: 575757
+    smokeColor: 53c955
+  sparkColor: fffb00
+  waveLife: 100
+  waveRad: 1000
+  waveStroke: 10
+  sparkStroke: 10
+  sparkRad: 30
+  sparkLen: 50
+  smokeSize: 15
+  smokeRad: 50
+	 }
+hitEffect: {
+		 type: ExplosionEffect
+      waveColor: 575757
+    smokeColor: 53c955
+  sparkColor: fffb00
+  waveLife: 100
+  waveRad: 1000
+  waveStroke: 10
+  sparkStroke: 10
+  sparkRad: 30
+  sparkLen: 50
+  smokeSize: 15
+  smokeRad: 5
+	 }
+ collideTerrain:false
+  speed: 10
+}
+}
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+suffix: -midl
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 1
+}
+y: -8
+x: -4
+}
+]
+}
+  {
+type: RegionPart
+suffix: -midr
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 1
+}
+y: -8
+x: 4
+}
+]
+}
+{
+type: RegionPart
+suffix: -mid
+moves: [
+{
+type: PartMove
+progress: {
+type: warmup
+op: delay
+amount: 1
+}
+y: 8
+}
+]
+}
+]
+}
+requirements: [
+  uranium/30
+]
+category: turret
