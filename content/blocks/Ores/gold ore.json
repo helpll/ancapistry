@@ -1,6 +1,6 @@
 type: OreBlock
 variants: 1
-itemDrop: Gold
+itemDrop: gold
 playerUnmineable:true
 needsSurface:true
 oreDefault:true
