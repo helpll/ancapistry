@@ -4,6 +4,7 @@ itemCapacity: 50
 craftTime: 240
 buildTime: 240
 size: 3
+health:  250
 hasPower: false
 hasLiquids: false
 menu: Simple
@@ -37,6 +38,8 @@ recipes:
   }
   craftTime: 600
 }
+]
+craftEffect: smokeCloud
 requirements: [
   Money/100
   lead/50
