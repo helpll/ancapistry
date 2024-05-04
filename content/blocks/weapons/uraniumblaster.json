@@ -1,6 +1,6 @@
 type: ItemTurret
 description: A decently small weapon capable of destroying small stars.
-name: Nuclei Obliteratoris solaris
+name: Uranium Blaster
 size: 4
 targetGround: true
 inaccuracy: 5
