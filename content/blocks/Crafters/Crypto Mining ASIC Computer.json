@@ -12,9 +12,8 @@ consumes: {
 }
 craftEffect: chainLightning
 requirements: [
-  lead/35
-  copper/35
-  graphite/5
+  copper/40
+  silicon/10
 
 ]
 category: crafting
