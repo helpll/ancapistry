@@ -38,6 +38,20 @@ recipes:
   }
   craftTime: 800
 }
+{
+ input: {
+    power: 4
+    items: [
+      ancapistry-gold/10
+    ]
+  }
+  output: {
+    items: [
+      ancapistry-money/7
+    ]
+  }
+  craftTime: 800
+}
 ]
 craftEffect: smokeCloud
 requirements: [
