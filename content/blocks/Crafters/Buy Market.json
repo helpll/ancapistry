@@ -1,4 +1,4 @@
-type: multiCrafter
+type: multicraft.MultiCrafter
 name:Buy Market
 itemCapacity: 50
 craftTime: 240
