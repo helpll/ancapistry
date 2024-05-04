@@ -22,7 +22,7 @@ recipes:
       graphite/25
     ]
   }
-  craftTime: 600
+  craftTime: 400
 }
 {
   input: {
@@ -36,7 +36,7 @@ recipes:
       ancapistry-uranium/8
     ]
   }
-  craftTime: 600
+  craftTime: 400
 }
 {
  input: {
@@ -50,7 +50,7 @@ recipes:
       metaglass/20
     ]
   }
-  craftTime: 600
+  craftTime: 400
 }
 ]
 craftEffect: smokeCloud
