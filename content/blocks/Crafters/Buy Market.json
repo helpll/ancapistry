@@ -13,7 +13,7 @@ recipes:
 {
   input: {
     items: [
-      Money/25
+      ancapistry-Money/25
     ]
   }
   output: {
@@ -27,7 +27,7 @@ recipes:
 {
  input: {
     items: [
-      Money/25
+      ancapistry-Money/25
     ]
   }
   output: {
