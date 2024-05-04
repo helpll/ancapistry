@@ -1,0 +1,47 @@
+type: multicraft.MultiCrafter
+name:Sell Market
+itemCapacity: 100
+craftTime: 240
+buildTime: 240
+size: 3
+health:  250
+hasPower: true
+hasLiquids: false
+menu: Simple
+recipes: 
+[
+{
+  input: {
+    power: 180
+    items: [
+      graphite/30
+    ]
+  }
+  output: {
+    items: [
+      ancapistry-Money/25
+    ]
+  }
+  craftTime: 600
+}
+{
+ input: {
+    power: 180
+    items: [
+      silicon/30
+    ]
+  }
+  output: {
+    items: [
+      ancapistry-Money/20
+    ]
+  }
+  craftTime: 600
+}
+]
+craftEffect: smokeCloud
+requirements: [
+  ancapistry-Money/20
+  lead/50
+]
+category: crafting
