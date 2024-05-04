@@ -25,6 +25,20 @@ recipes:
   craftTime: 600
 }
 {
+  input: {
+    power: 180
+    items: [
+      ancapistry-Money/100
+    ]
+  }
+  output: {
+    items: [
+      ancapistry-Uranium/8
+    ]
+  }
+  craftTime: 600
+}
+{
  input: {
     power: 180
     items: [
