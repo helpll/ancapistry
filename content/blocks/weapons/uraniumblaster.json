@@ -263,6 +263,6 @@ y: 8
 ]
 }
 requirements: [
-  Uranium/30
+  uranium/30
 ]
 category: turret
