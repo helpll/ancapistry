@@ -1,0 +1,8 @@
+name: "Ancapistry"
+displayName: "Ancapistry"
+author: helpl
+description: Welcome to Ancapistan! Where every man can be a king. Welcome to Ancapistan: where your worth as a man; is the worth that you bring.
+version: "0.1"
+minGameVersion: "136"
+dependencies: ["multi-crafter"]
+hidden: false

@@ -1,0 +1,8 @@
+type: OreBlock
+variants: 1
+itemDrop: Gold
+playerUnmineable:true
+needsSurface:true
+oreDefault:true
+oreScale: 16
+oreThreshold: 0.9

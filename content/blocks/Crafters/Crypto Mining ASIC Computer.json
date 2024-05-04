@@ -1,0 +1,21 @@
+type: genericCrafter
+name: Crypto Mining ASIC Computer
+craftTime: 240
+buildTime: 240
+size: 1
+hasPower: true
+hasLiquids: false
+consumes: {
+  items: {
+  }
+  power: 60
+}
+craftEffect: smokeCloud
+requirements: [
+  lead/35
+  copper/35
+  graphite/5
+
+]
+category: crafting
+outputItem: Money/1
