@@ -13,7 +13,7 @@ recipes:
 {
   input: {
     items: [
-      money/25
+      Money/25
     ]
   }
   output: {
@@ -27,7 +27,7 @@ recipes:
 {
  input: {
     items: [
-      money/25
+      Money/25
     ]
   }
   output: {
