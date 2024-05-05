@@ -1,0 +1,21 @@
+type: genericCrafter
+name: Crypto Mining ASIC Computer Pro
+craftTime: 480
+buildTime: 480
+size: 2
+hasPower: true
+hasLiquids: false
+consumes: {
+  items: {
+  }
+  power: 1.6
+}
+craftEffect: chainLightning
+requirements: [
+  copper/100
+  silicon/50
+  computer parts/15
+
+]
+category: crafting
+outputItem: money/5
